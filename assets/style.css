@@ -216,6 +216,7 @@ body {
 }
 .form-container {
 	flex : 2;
+	padding-bottom: 30px;
 
 }
 form {
@@ -246,6 +247,30 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.openings {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 20px;
+	justify-content: flex-end;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.spanOpenings {
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#camera {
+	width: 150%;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
