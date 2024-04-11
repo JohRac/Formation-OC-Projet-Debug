@@ -253,18 +253,33 @@ input[type="submit"] {
 	flex-direction: column;
 	gap: 30px;
 	padding: 20px;
-	justify-content: flex-end;
+	padding-top: 0px;
+	
 }
 
 .address {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	
 }
 
 .spanOpenings {
 	font-weight: bolder;
-	font-size: 18px;
+	font-size: 22px;
+}
+
+#postal {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.hoursShort {
+	padding-left: 80px;
+}
+
+.hoursLong {
+	padding-left: 55px;
 }
 
 #camera {
