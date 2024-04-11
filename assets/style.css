@@ -216,6 +216,7 @@ body {
 }
 .form-container {
 	flex : 2;
+	padding-bottom: 30px;
 
 }
 form {
@@ -246,6 +247,45 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.openings {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 20px;
+	padding-top: 0px;
+	
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.spanOpenings {
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+#postal {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.hoursShort {
+	padding-left: 80px;
+}
+
+.hoursLong {
+	padding-left: 55px;
+}
+
+#camera {
+	width: 150%;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
